@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import "header";
+@import "home";
+@import "about";
+@import "course.scss";
+@import "coaches.scss";
+@import "price";
+@import "footer";
+@import "media";
+
+

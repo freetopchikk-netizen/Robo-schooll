@@ -1,0 +1,159 @@
+@media (max-width: 1024px) {
+  .home {
+    padding-top: 40px;
+  }
+}
+.home-blocks {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.home-block__img {
+  width: 50%;
+  height: auto;
+}
+
+.home-blocks__block-title {
+  color: #ffffff;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 60px;
+  font-family: jost;
+  font-weight: 600;
+}
+
+.home-blocks__block-subtitle {
+  width: 478px;
+  margin: 10px 0 40px;
+  color: #ffffff;
+  vertical-align: text-top;
+  font-size: 20px;
+  font-family: jost;
+}
+
+.home-blocks__block {
+  margin-top: 140px;
+}
+
+.about {
+  padding: 110px 0;
+}
+
+.container {
+  width: 93%;
+  margin: 0 auto;
+}
+
+.about-items {
+  width: 100%;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about-item {
+  width: 24%;
+}
+
+.about-item__number {
+  color: red;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 62px;
+}
+
+.course-blocks__block {
+  margin-bottom: auto;
+}
+
+.coaches {
+  width: 100%;
+  margin: 100px 0;
+}
+
+.coaches-slider {
+  margin-top: 42px;
+}
+
+.coaches-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 22px;
+  overflow-x: scroll;
+}
+
+.coaches-slide__block-img {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.coaches-slider__scroll {
+  margin-top: 30px;
+}
+
+.price {
+  margin-bottom: 100px;
+}
+
+.price-cards {
+  margin-top: 30px;
+  gap: 25px;
+}
+
+.price-card {
+  width: 360px;
+  height: 420px;
+}
+
+.price-card__active h4 {
+  margin: 51px 0 20px;
+  color: white;
+}
+
+.price-card__prise {
+  margin: 44px 0 20px;
+  color: black;
+  text-align: center;
+  vertical-align: text-top;
+  font-size: 45px;
+}
+
+.price-card__btn {
+  margin-top: auto;
+  background-color: red;
+  width: 100%;
+  height: 65px;
+}
+
+.price-card__active {
+  height: 430px;
+}
+
+.price-card:hover {
+  height: 430px;
+}
+.price-card:hover h4 {
+  margin: 51px 0 20px;
+  color: white;
+}
+
+.footer-sing {
+  gap: 50px;
+  padding: 60px 0;
+}
+
+.footer-sing__backimg {
+  bottom: -20px;
+}
+
+.footer-connect {
+  width: 100%;
+  height: 110px;
+}
